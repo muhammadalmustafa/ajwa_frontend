@@ -8,6 +8,8 @@ import LoginPage from './pages/LoginPage';
 import AddProductPage from './pages/AddProductPage';
 import ProductPage from './pages/ProductPage';
 import Header from './components/Header';
+import SearchProductsPage from './pages/SearchProductsPage';
+
 function App() {
     return (
         <Router>
@@ -19,6 +21,7 @@ function App() {
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/add-product" element={<AddProductPage />} />
                 <Route path="/products" element={<ProductPage />} />
+                <Route path="/search-products" element={<SearchProductsPage />} />
 
                 {/* Add other routes here */}
             </Routes>

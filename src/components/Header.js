@@ -11,6 +11,7 @@ function Header() {
                 <ul className="flex space-x-4">
                     <li><Link to="/add-product">Add Product</Link></li>
                     <li><Link to="/products">Product List</Link></li>
+                    <li><Link to="/search-products">Search Products</Link></li>
                 </ul>
             </nav>
         </header>
